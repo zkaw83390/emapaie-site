@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos d'EMAPAIE - Notre Histoire & Notre Équipe</title>
+    <meta name="description" content="Découvrez l'histoire d'EMAPAIE, nos fondatrices expertes en paie et RH, et notre mission : transformer la gestion de la paie en un pilier de sérénité.">
+    <style>
+        /* Variables de couleurs améliorées */
+        :root {
+            /* Bleus principaux */
+            --bleu-fonce: #1e3a5f;
+            --bleu-moyen: #2c5282;
+            --bleu-clair: #3b82f6;
+            --bleu-tres-clair: #60a5fa;
+            --bleu-pale: #dbeafe;
+            
+            /* Gris chauds (légèrement beiges) */
+            --gris-tres-clair: #fafaf9;
+            --gris-clair: #f5f5f4;
+            --gris-moyen: #e7e5e4;
+            --gris-texte: #57534e;
+            --gris-texte-clair: #78716c;
+            
+            /* Accent chaleureux */
+            --or: #fbbf24;
+            --or-clair: #fcd34d;
+            --or-fonce: #f59e0b;
+            
+            /* Blanc cassé (plus chaleureux que blanc pur) */
+            --blanc-chaud: #fffef9;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--gris-texte);
+            background: var(--blanc-chaud);
+        }
+
+        /* Header et Navigation */
+        header {
+            background: linear-gradient(135deg, var(--bleu-fonce) 0%, var(--bleu-moyen) 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(30, 58, 95, 0.12);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--or);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--bleu-fonce) 0%, var(--bleu-moyen) 100%);
+            color: white;
+            padding: 150px 2rem 80px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        /* Sections */
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bleu-fonce);
+            color: white;
+            padding: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--or);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="EMAPAIE_LOGO.png" alt="EMAPAIE - Gestion de Paie & Conseil RH">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h1>L'histoire d'EMAPAIE</h1>
+        <p>
+            Parce que derrière chaque bulletin de paie, il y a des vies, des familles, des projets. 
+            Nous avons créé EMAPAIE pour que la paie ne soit plus une source de stress, mais un pilier de sérénité.
+        </p>
+    </div>
+
+    <!-- Qui sommes-nous -->
+    <section>
+        <div style="background: white; padding: 3rem; border-radius: 16px; margin-bottom: 3rem; box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08);">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                <div style="background: linear-gradient(135deg, var(--bleu-clair), var(--bleu-tres-clair)); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white;">👥</div>
+                <h2 style="color: var(--bleu-fonce); font-size: 2rem; margin: 0;">Qui sommes-nous ?</h2>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: center;">
+                <div>
+                    <p style="color: var(--gris-texte); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                        Nous sommes deux professionnelles de la paie et des ressources humaines, avec <strong>plus de 10 ans d'expérience chacune</strong> dans des cabinets d'expertise comptable et des directions RH d'entreprises.
+                    </p>
+                    <p style="color: var(--gris-texte); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                        Nous avons vécu de l'intérieur les défis de la paie : <strong>les urgences de dernière minute, les salariés inquiets qui attendent leur bulletin, les chefs d'entreprise débordés, les comptables surchargés.</strong> 
+                    </p>
+                    <p style="color: var(--gris-texte); font-size: 1.1rem; line-height: 1.8;">
+                        C'est cette expérience terrain qui nous permet aujourd'hui de comprendre <strong>vraiment</strong> vos besoins et d'anticiper vos questions avant même que vous ne les posiez.
+                    </p>
+                </div>
+                
+                <div style="text-align: center;">
+                    <div style="background: linear-gradient(135deg, var(--bleu-moyen), var(--bleu-fonce)); padding: 2rem; border-radius: 16px; color: white;">
+                        <div style="font-size: 3.5rem; margin-bottom: 1rem;">🎓</div>
+                        <div style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem;">+10 ans</div>
+                        <div style="font-size: 1.1rem; opacity: 0.95;">d'expérience chacune</div>
+                        <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(255,255,255,0.3);">
+                            <div style="font-size: 1.8rem; font-weight: bold; margin-bottom: 0.5rem;">100%</div>
+                            <div style="font-size: 1rem; opacity: 0.95;">expertes certifiées</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi EMAPAIE -->
+    <section style="background: linear-gradient(135deg, var(--bleu-fonce), var(--bleu-moyen)); padding: 4rem 2rem; color: white;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <div style="background: rgba(255,255,255,0.2); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem;">💡</div>
+            <h2 style="color: white; font-size: 2rem; margin: 0; border: none; padding: 0;">Pourquoi nous avons créé EMAPAIE</h2>
+        </div>
+        
+        <div style="font-size: 1.15rem; line-height: 1.9; opacity: 0.95; max-width: 900px; margin: 0 auto; text-align: left;">
+                <p style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--or-clair);">Le déclic :</strong> Nous avons constaté un fossé énorme entre ce que proposent les grosses structures (plateformes impersonnelles, tickets par email, délais interminables) et ce dont les clients ont vraiment besoin : <strong>une personne de confiance, réactive, qui connaît leur dossier sur le bout des doigts.</strong>
+                </p>
+                <p style="margin-bottom: 1.5rem;">
+                    Nous avons vu trop de chefs d'entreprise stressés la veille de la paie, trop de cabinets comptables débordés qui perdent des clients faute de service paie, trop de salariés qui reçoivent leurs bulletins avec 3 jours de retard.
+                </p>
+                <p style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--or-clair);">Notre conviction :</strong> La paie n'est pas qu'une affaire de chiffres et de conformité. C'est une affaire de <strong>confiance, de réactivité, de relation humaine.</strong>
+                </p>
+                <p style="margin-bottom: 0;">
+                    C'est pour ça que nous avons créé EMAPAIE : pour proposer <strong>l'expertise technique d'un grand cabinet avec la proximité et la réactivité d'une structure à taille humaine.</strong> Le meilleur des deux mondes.
+                </p>
+            </div>
+    </section>
+
+    <!-- Rencontrez l'équipe -->
+    <section style="background: var(--gris-tres-clair);">
+        <h2 style="color: var(--bleu-fonce); font-size: 2.5rem; margin-bottom: 1rem; text-align: center;">Rencontrez l'équipe</h2>
+        <p style="text-align: center; color: var(--gris-texte-clair); max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem;">
+            Les visages derrière EMAPAIE : deux expertes passionnées qui s'occuperont de vos dossiers avec rigueur et humanité.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem; max-width: 900px; margin: 0 auto;">
+            
+            <!-- Gérante 1 -->
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08); text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <!-- Avatar / Photo -->
+                <div style="width: 150px; height: 150px; margin: 0 auto 1.5rem; background: linear-gradient(135deg, var(--bleu-moyen), var(--bleu-fonce)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: white; box-shadow: 0 4px 15px rgba(44, 82, 130, 0.3);">
+                    👩‍💼
+                </div>
+                
+                <!-- Nom et Titre -->
+                <h3 style="color: var(--bleu-fonce); font-size: 1.6rem; margin-bottom: 0.5rem;">[Nom Prénom]</h3>
+                <p style="color: var(--or); font-weight: bold; font-size: 1.1rem; margin-bottom: 1.5rem;">Co-fondatrice & Experte Paie</p>
+                
+                <!-- Description -->
+                <p style="color: var(--gris-texte); line-height: 1.7; text-align: left; margin-bottom: 1.5rem;">
+                    Plus de 10 ans d'expérience en gestion de paie au sein de cabinets d'expertise comptable. Spécialisée en législation sociale, conventions collectives et optimisation des processus paie. Passionnée par la conformité et la précision.
+                </p>
+                
+                <!-- Certifications / Spécialités -->
+                <div style="background: var(--gris-tres-clair); padding: 1rem; border-radius: 8px; text-align: left;">
+                    <p style="color: var(--bleu-fonce); font-weight: bold; margin-bottom: 0.5rem; font-size: 0.95rem;">Certifications & Expertise :</p>
+                    <ul style="color: var(--gris-texte); font-size: 0.95rem; line-height: 1.6; margin-left: 1.2rem;">
+                        <li>Gestionnaire de paie certifiée</li>
+                        <li>Spécialiste droit social</li>
+                        <li>Expert DSN</li>
+                        <li>Veille juridique permanente</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Gérante 2 -->
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08); text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <!-- Avatar / Photo -->
+                <div style="width: 150px; height: 150px; margin: 0 auto 1.5rem; background: linear-gradient(135deg, var(--bleu-clair), var(--bleu-tres-clair)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: white; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);">
+                    👩‍💻
+                </div>
+                
+                <!-- Nom et Titre -->
+                <h3 style="color: var(--bleu-fonce); font-size: 1.6rem; margin-bottom: 0.5rem;">[Nom Prénom]</h3>
+                <p style="color: var(--or); font-weight: bold; font-size: 1.1rem; margin-bottom: 1.5rem;">Co-fondatrice & Experte RH</p>
+                
+                <!-- Description -->
+                <p style="color: var(--gris-texte); line-height: 1.7; text-align: left; margin-bottom: 1.5rem;">
+                    Plus de 10 ans d'expérience en ressources humaines et digitalisation RH. Spécialisée dans l'accompagnement des cabinets comptables et l'optimisation des processus RH. Experte en SIRH et outils digitaux.
+                </p>
+                
+                <!-- Certifications / Spécialités -->
+                <div style="background: var(--gris-tres-clair); padding: 1rem; border-radius: 8px; text-align: left;">
+                    <p style="color: var(--bleu-fonce); font-weight: bold; margin-bottom: 0.5rem; font-size: 0.95rem;">Certifications & Expertise :</p>
+                    <ul style="color: var(--gris-texte); font-size: 0.95rem; line-height: 1.6; margin-left: 1.2rem;">
+                        <li>Gestionnaire de paie certifiée</li>
+                        <li>Spécialiste digitalisation RH</li>
+                        <li>Expert SIRH & outils digitaux</li>
+                        <li>Accompagnement cabinets comptables</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Note personnelle -->
+        <div style="max-width: 800px; margin: 3rem auto 0; text-align: center; padding: 2rem; background: white; border-radius: 12px; border-left: 4px solid var(--or);">
+            <p style="color: var(--gris-texte); font-size: 1.1rem; line-height: 1.7; font-style: italic;">
+                "Nous ne sommes pas juste des prestataires de paie. Nous sommes vos partenaires RH, disponibles, réactives, et engagées à vous offrir le meilleur service possible. Votre sérénité, c'est notre mission."
+            </p>
+            <p style="color: var(--bleu-fonce); font-weight: bold; margin-top: 1rem;">— [Prénom] & [Prénom], fondatrices d'EMAPAIE</p>
+        </div>
+    </section>
+
+    <!-- Nos engagements qualité -->
+    <section>
+        <div style="background: white; padding: 3rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08);">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                <div style="background: linear-gradient(135deg, var(--or), var(--or-clair)); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: var(--bleu-fonce);">✓</div>
+                <h2 style="color: var(--bleu-fonce); font-size: 2rem; margin: 0;">Nos engagements qualité</h2>
+            </div>
+            
+            <p style="color: var(--gris-texte); font-size: 1.1rem; line-height: 1.8; margin-bottom: 2.5rem;">
+                Nous ne faisons pas de promesses marketing. Voici nos engagements concrets, ceux sur lesquels vous pouvez nous juger au quotidien :
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                
+                <!-- Engagement 1 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎯</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Zéro retard, zéro erreur</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Vos bulletins sont prêts à temps, tous les mois. Vos DSN sont envoyées dans les délais. Et si malgré tous nos contrôles une erreur se glisse, nous la corrigeons immédiatement, sans facturation.
+                    </p>
+                </div>
+
+                <!-- Engagement 2 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">💬</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Réponse sous 24h garantie</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Vous nous envoyez un email, un message ? Nous nous engageons à vous répondre sous 24h maximum. Souvent, c'est le jour même. Parce que vos urgences sont nos priorités.
+                    </p>
+                </div>
+
+                <!-- Engagement 3 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📚</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Veille permanente</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Conventions collectives, lois de finances, décrets URSSAF... Nous suivons TOUT pour que vous n'ayez pas à le faire. Vos paies sont toujours conformes aux dernières évolutions légales.
+                    </p>
+                </div>
+
+                <!-- Engagement 4 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔒</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Confidentialité absolue</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Vos données sont sacrées. Secret professionnel, RGPD, hébergement sécurisé en France : nous appliquons les standards les plus stricts de protection des données.
+                    </p>
+                </div>
+
+                <!-- Engagement 5 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🤝</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Transparence totale</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Nos tarifs sont clairs, sans frais cachés. Nos processus sont expliqués. Si vous avez une question, nous prenons le temps d'y répondre jusqu'à ce que ce soit limpide.
+                    </p>
+                </div>
+
+                <!-- Engagement 6 -->
+                <div style="padding: 2rem; background: var(--gris-tres-clair); border-radius: 12px; border-left: 4px solid var(--bleu-clair);">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌱</div>
+                    <h3 style="color: var(--bleu-fonce); font-size: 1.3rem; margin-bottom: 1rem;">Partenariat long terme</h3>
+                    <p style="color: var(--gris-texte); line-height: 1.7;">
+                        Nous ne sommes pas là pour "faire la paie". Nous sommes là pour devenir votre partenaire RH de confiance, sur la durée. Plus on travaille ensemble, mieux on vous connaît.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation finale -->
+    <section style="padding: 3rem 2rem;">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <div style="padding: 2.5rem; background: var(--bleu-pale); border-radius: 12px; border-left: 4px solid var(--bleu-moyen);">
+                <p style="font-size: 1.3rem; font-style: italic; color: var(--bleu-fonce); line-height: 1.8; margin-bottom: 1.5rem;">
+                    "Notre mission est simple : faire en sorte que vous ne pensiez plus jamais à la paie. Qu'elle devienne un automatisme fiable, géré par des personnes de confiance que vous connaissez et qui vous connaissent."
+                </p>
+                <p style="font-weight: bold; color: var(--bleu-fonce); font-size: 1.1rem;">
+                    — L'équipe EMAPAIE
+                </p>
+            </div>
+        </div>
+
+        <!-- CTA vers contact -->
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="index.html#contact" style="display: inline-block; background: var(--or); color: var(--bleu-fonce); padding: 1.2rem 3rem; border-radius: 50px; text-decoration: none; font-size: 1.2rem; font-weight: bold; transition: all 0.3s; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);" onmouseover="this.style.background='var(--or-fonce)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='var(--or)'; this.style.transform='translateY(0)'">
+                Travaillons ensemble
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="font-size: 1.1rem; margin-bottom: 1rem;"><strong>EMAPAIE</strong> - Gestion de Paie & Conseil RH</p>
+            <p>&copy; 2024 EMAPAIE | Tous droits réservés</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                <a href="mentions-legales.html" style="color: white; text-decoration: none; margin: 0 1rem;">Mentions légales</a> | 
+                <a href="politique-confidentialite.html" style="color: white; text-decoration: none; margin: 0 1rem;">Politique de confidentialité</a> | 
+                <a href="cgv.html" style="color: white; text-decoration: none; margin: 0 1rem;">CGV</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
